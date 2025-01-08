@@ -26,7 +26,7 @@ List<Event> sampleEvents = [
     title: 'Math Exam',
     date: DateTime.now().add(Duration(days: 1, hours: 9)),
     location: 'Room 204, Main Building',
-    coordinates: LatLng(37.7749, -122.4194), // Replace with real coordinates
+    coordinates: LatLng(37.7749, -122.4194),
     description: 'Bring all required tools (calculator, pen, etc.)',
   ),
   Event(
@@ -34,7 +34,7 @@ List<Event> sampleEvents = [
     title: 'Physics Exam',
     date: DateTime.now().add(Duration(days: 3, hours: 14)),
     location: 'Auditorium B',
-    coordinates: LatLng(37.7786, -122.4313), // Replace with real coordinates
+    coordinates: LatLng(37.7786, -122.4313),
     description: 'Focus on chapters 4-7',
   ),
 ];

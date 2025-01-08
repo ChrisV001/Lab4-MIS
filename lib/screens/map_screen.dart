@@ -44,8 +44,7 @@ class _MapScreenState extends State<MapScreen> {
   }
 
   Set<Polyline> _buildRoutePolyline() {
-    // Replace with actual start location if available
-    LatLng startLocation = LatLng(37.7749, -122.4194); // Example start point
+    LatLng startLocation = LatLng(37.7749, -122.4194);
 
     return {
       Polyline(
